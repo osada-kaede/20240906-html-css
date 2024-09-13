@@ -70,6 +70,7 @@ h2 span{
 
 #first-view{
     display: flex;
+    background-color: #ffffad;
 }
 
 #first-view .text{
@@ -80,6 +81,10 @@ h2 span{
 #first-view h1{
     font-size: 70px;
     margin: 0 0 60px;
+    padding-left: 5px;
+    color: white;
+    background-color: #ffcc33;
+
 }
 
 #first-view .sub-title{
@@ -96,7 +101,14 @@ h2 span{
     flex-direction: row-reverse;
     padding-left: 60px;
     justify-content: space-between;
-    background: #ffefef;
+    background: #e5ccff;
+}
+
+#sec-1 h2{
+    padding-left: 5px;
+    color: #82ff05;
+    background-color: #9933ff;
+    border-left: solid 5px #82ff05;
 }
 
 .sec-1-right{
@@ -113,11 +125,14 @@ h2 span{
 ****************/
 
 #sec-2{
-    background: #fff8ff;
+    background: #ffefef;
 }
 
 #sec-2 h2{
     text-align: center;
+    color: white;
+    background-color: #ff4c4c;
+    border-bottom: solid 7px #ff7f00;
 }
 
 .gallery{
@@ -144,8 +159,14 @@ h2 span{
 * #sec-3
 ****************/
 
+#sec-3{
+    background: #ffefff;
+}
+
 #sec-3 h2{
     text-align: center;
+    color: #b770ff;
+    background-color: #ff84ff;
 }
 
 /***************
